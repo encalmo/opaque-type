@@ -2,15 +2,19 @@
 
 This Scala 3 library provides a support to easily define opaque types serializable using [upickle](https://github.com/com-lihaoyi/upickle).
 
+## Dependencies
+
+- Scala >= 3.3.5 LTS
+
 ## Usage
 
 Use with SBT
 
-    libraryDependencies += "org.encalmo" %% "opaque-type" % "0.9.0"
+    libraryDependencies += "org.encalmo" %% "opaque-type" % "0.9.1"
 
 or with SCALA-CLI
 
-    //> using dep org.encalmo::opaque-type:0.9.0
+    //> using dep org.encalmo::opaque-type:0.9.1
 
 ## Example
 
