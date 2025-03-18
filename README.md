@@ -1,4 +1,4 @@
-<a href="https://central.sonatype.com/artifact/org.encalmo/opaque-type_3" target="_blank">![Maven Central Version](https://img.shields.io/maven-central/v/org.encalmo/opaque-type_3?style=for-the-badge)</a> <a href="https://encalmo.github.io/opaque-type/scaladoc/org/encalmo/models.html" target="_blank"><img alt="Scaladoc" src="https://img.shields.io/badge/docs-scaladoc-red?style=for-the-badge"></a>
+<a href="https://github.com/encalmo/opaque-type">![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</a> <a href="https://central.sonatype.com/artifact/org.encalmo/opaque-type_3" target="_blank">![Maven Central Version](https://img.shields.io/maven-central/v/org.encalmo/opaque-type_3?style=for-the-badge)</a> <a href="https://encalmo.github.io/opaque-type/scaladoc/org/encalmo/models.html" target="_blank"><img alt="Scaladoc" src="https://img.shields.io/badge/docs-scaladoc-red?style=for-the-badge"></a>
 
 # opaque-type
 
@@ -6,17 +6,18 @@ This Scala 3 library provides a support to easily define opaque types serializab
 
 ## Dependencies
 
-- Scala >= 3.3.5 LTS
+   - [Scala](https://www.scala-lang.org) >= 3.3.5
+   - [Scala **toolkit** 0.7.0](https://github.com/scala/toolkit)
 
 ## Usage
 
 Use with SBT
 
-    libraryDependencies += "org.encalmo" %% "opaque-type" % "0.9.1"
+    libraryDependencies += "org.encalmo" %% "opaque-type" % "0.9.2"
 
 or with SCALA-CLI
 
-    //> using dep org.encalmo::opaque-type:0.9.1
+    //> using dep org.encalmo::opaque-type:0.9.2
 
 ## Example
 
